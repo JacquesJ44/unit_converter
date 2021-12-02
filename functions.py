@@ -40,7 +40,7 @@ def deg_cel():
 
     y = round((x - 32) * 5/9, 2)
 
-    print(f'{x} degrees Fahrenheit is equal to {y} degrees Celsius'.format(x, y))
+    print(f'{} degrees Fahrenheit is equal to {} degrees Celsius'.format(x, y))
 
 
 # inches to meter
@@ -49,7 +49,7 @@ def len_met():
     x = int(input("Enter value in inches: "))
 
     y = round((x / 39.37), 2)
-    print(f'{x} inches is equal to {y} meters'.format(x, y))
+    print(f'{} inches is equal to {} meters'.format(x, y))
 
 
 # ounces to kilograms
@@ -58,7 +58,7 @@ def wei_kil():
     x = int(input("Enter value in pounds: "))
 
     y = round(x * 0.45359237, 2)
-    print(f'{x} pounds is equal to {y} kilograms'.format(x, y))
+    print(f'{} pounds is equal to {} kilograms'.format(x, y))
 
 
 # liters to gallons
@@ -67,7 +67,7 @@ def vol_lit():
     x = int(input("Enter value in gallons: "))
 
     y = round(x * 3.785, 2)
-    print(f'{x} gallons is equal to {y} liters'.format(x, y))
+    print(f'{} gallons is equal to {} liters'.format(x, y))
 
 
 # MPH to KPH
@@ -76,4 +76,4 @@ def mph_kph():
     x = int(input("Enter value in miles: "))
 
     y = round(x * 1.609, 2)
-    print(f'{x} miles is equal to {y} kilometers'.format(x, y))
+    print(f'{} miles is equal to {} kilometers'.format(x, y))
