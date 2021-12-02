@@ -33,7 +33,7 @@ def convert_another():
 
 
 # DEFINING ALL THE CALCULATIONS' FUNCTIONS
-# degrees Celsius to degrees Fahrenheit
+# degrees Fahrenheit to degrees Celsius
 def deg_cel():
 
     x = int(input("Enter value in Fahrenheit: "))
@@ -77,36 +77,3 @@ def mph_kph():
 
     y = round(x * 1.609, 2)
     print(f'{x} miles is equal to {y} kilometers'.format(x, y))
-
-
-#####################################################################################################
-
-# THE LOGIC
-
-runopt = True
-
-while runopt:
-
-    main_menu()
-    opt = user_input()
-
-    if opt == '1':
-        deg_cel()
-
-    elif opt == '2':
-        len_met()
-
-    elif opt == '3':
-        wei_kil()
-
-    elif opt == '4':
-        vol_lit()
-
-    elif opt == '5':
-        mph_kph()
-
-
-    if not convert_another():
-        break
-    else:
-        pass
