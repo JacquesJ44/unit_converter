@@ -20,7 +20,7 @@ while runopt:
         f.vol_lit()
 
     elif opt == '5':
-        f.mph_kph()
+        f.spe_kph()
 
 
     if not f.convert_another():
