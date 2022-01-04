@@ -1,5 +1,5 @@
 ### Hi there 👋
-I'm learning about coding, Python, C, HTML, CSS and what the hell is going on?????? hahhaha I'll get there though, through experimenting and awesome colleagues, I hope
+I'm learning about coding, Python, C, HTML and CSS. This is my first project.
 <!--
 **JacquesJ44/JacquesJ44** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
